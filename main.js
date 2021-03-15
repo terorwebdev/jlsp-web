@@ -42,29 +42,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
     {
-        path: 'home',
-        component: _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
-        data: {
-            seo: {
-                title: 'Hasil Laut Sabah - Fresh Setiap Hari',
-                metaTags: [
-                    { name: 'description', content: 'Menjual hasil laut segar sabah - Ikan Udang Ketam Sotong - Fresh Setiap Hari. Penghantar COD Kota Kinabalu, Putatan, Penampang & Kepayan. Whatsapp kami, kami hantar terus ke depan pintu rumah' },
-                    { name: 'keywords', content: 'Menjual ikan udang ketam sotong fresh segar Kota Kinabalu, Putatan, Penampang & Kepayan. Whatsapp kami, hantar terus ke depan pintu rumah.' },
-                    { name: 'author', content: 'Hasil Laut Segar Sabah' },
-                    { property: 'og:url', content: 'https://www.hasillautsabah.com/' },
-                    { property: 'og:type', content: 'website' },
-                    { property: 'og:site_name', content: 'Menjual Hasil Laut Segar Sabah' },
-                    { property: 'og:title', content: 'Menjual Ikan Udang Ketam Sotong - Fresh Setiap Hari' },
-                    { proprety: 'og:description', content: 'Tiada masa ke pasar? Kami menjual Ikan Udang Ketam Sotong segar. Whatsapp kami, penghantaran COD area Putatan, Penampang, Kepayan dan Kota Kinabalu terus ke depan pintu rumah. POS Semenanjung/Sarawak' },
-                    { property: 'og:image', content: 'assets/images/banner_card_hls_v.1.png' }
-                ]
-            }
-        }
-    },
-    {
-        path: 'promo-video',
+        path: '',
         component: _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
         data: {
             seo: {
@@ -83,6 +62,47 @@ const routes = [
             }
         }
     }
+    // { path: '', redirectTo: 'home', pathMatch: 'full' },
+    // {
+    //   path: 'home',
+    //   component: HomeComponent,
+    //   data: {
+    //     seo: {
+    //       title: 'Hasil Laut Sabah - Fresh Setiap Hari',
+    //       metaTags: [
+    //         { name: 'description', content: 'Menjual hasil laut segar sabah - Ikan Udang Ketam Sotong - Fresh Setiap Hari. Penghantar COD Kota Kinabalu, Putatan, Penampang & Kepayan. Whatsapp kami, kami hantar terus ke depan pintu rumah' },
+    //         { name: 'keywords', content: 'Menjual ikan udang ketam sotong fresh segar Kota Kinabalu, Putatan, Penampang & Kepayan. Whatsapp kami, hantar terus ke depan pintu rumah.' },
+    //         { name: 'author', content: 'Hasil Laut Segar Sabah' },
+    //         { property: 'og:url', content: 'https://www.hasillautsabah.com/' },
+    //         { property: 'og:type', content: 'website' },
+    //         { property: 'og:site_name', content: 'Menjual Hasil Laut Segar Sabah' },
+    //         { property: 'og:title', content: 'Menjual Ikan Udang Ketam Sotong - Fresh Setiap Hari' },
+    //         { proprety: 'og:description', content: 'Tiada masa ke pasar? Kami menjual Ikan Udang Ketam Sotong segar. Whatsapp kami, penghantaran COD area Putatan, Penampang, Kepayan dan Kota Kinabalu terus ke depan pintu rumah. POS Semenanjung/Sarawak' },
+    //         { property: 'og:image', content: 'assets/images/banner_card_hls_v.1.png' }
+    //       ]
+    //     }
+    //   }
+    // },
+    // {
+    //   path: 'promo-video',
+    //   component: PromoVideoComponent,
+    //   data: {
+    //     seo: {
+    //       title: 'Hasil Laut Sabah - Fresh Setiap Hari',
+    //       metaTags: [
+    //         { name: 'description', content: 'Menjual hasil laut segar sabah - Ikan Udang Ketam Sotong - Fresh Setiap Hari. Penghantar COD Kota Kinabalu, Putatan, Penampang & Kepayan. Whatsapp kami, kami hantar terus ke depan pintu rumah' },
+    //         { name: 'keywords', content: 'Menjual ikan udang ketam sotong fresh segar Kota Kinabalu, Putatan, Penampang & Kepayan. Whatsapp kami, hantar terus ke depan pintu rumah.' },
+    //         { name: 'author', content: 'Hasil Laut Segar Sabah' },
+    //         { property: 'og:url', content: 'https://www.hasillautsabah.com/' },
+    //         { property: 'og:type', content: 'website' },
+    //         { property: 'og:site_name', content: 'Menjual Hasil Laut Segar Sabah' },
+    //         { property: 'og:title', content: 'Menjual Ikan Udang Ketam Sotong - Fresh Setiap Hari' },
+    //         { proprety: 'og:description', content: 'Tiada masa ke pasar? Kami menjual Ikan Udang Ketam Sotong segar. Whatsapp kami, penghantaran COD area Putatan, Penampang, Kepayan dan Kota Kinabalu terus ke depan pintu rumah. POS Semenanjung/Sarawak' },
+    //         { property: 'og:video', content: 'https://video.fbki2-1.fna.fbcdn.net/v/t42.27313-2/157478907_198728792027664_1695651469353540496_n.mp4?_nc_cat=106&vs=3e7c9b9b674b91e0&_nc_vs=HBksFQAYJEdQdnZZZ2tRTWc0bnZyUUFBSkRicndVSEtvZ1hickZxQUFBRhUAAsgBABUAGCRHRlFiWGduUUxKWWNhQW9OQU5PM25YRDhGRWRUYnY0R0FBQUYVAgLIAQBLA4gScHJvZ3Jlc3NpdmVfcmVjaXBlATEgbWVhc3VyZV9vcmlnaW5hbF9yZXNvbHV0aW9uX3NzaW0AKGNvbXB1dGVfc3NpbV9vbmx5X2F0X29yaWdpbmFsX3Jlc29sdXRpb24AFQAlABwAACa0ya33r4t0FQIoA0MzZRgLdnRzX3ByZXZpZXccF0ApH752yLQ5GCdkYXNoX2dlbjNiYXNpY181c2VjZ29wX2hxMV9mcmFnXzJfdmlkZW8RABgYdmlkZW9zLnZ0cy5jYWxsYmFjay5wcm9kOBJWSURFT19WSUVXX1JFUVVFU1QbCIgVb2VtX3RhcmdldF9lbmNvZGVfdGFnBm9lcF9oZBNvZW1fcmVxdWVzdF90aW1lX21zDTE2MTU4MjE2MDA4NzEMb2VtX2NmZ19ydWxlB3VubXV0ZWQTb2VtX3JvaV9yZWFjaF9jb3VudAI0MAxvZW1fdmlkZW9faWQPMjU1MjgyMTE5NTkyMTUzEm9lbV92aWRlb19hc3NldF9pZA8yNTUyODIxMTI5MjU0ODcVb2VtX3ZpZGVvX3Jlc291cmNlX2lkDzI1NTI4MjEwOTU5MjE1NBxvZW1fc291cmNlX3ZpZGVvX2VuY29kaW5nX2lkDzE4NjA3OTExNjI5NTM1MiUCHAAlQAA%3D&ccb=1-3&_nc_sid=a6057a&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_ohc=gEvcD683H-EAX923HgI&_nc_ht=video.fbki2-1.fna&oh=7f98a4718223ce8b139c0a818d469dbc&oe=604F9CCD&_nc_rid=87487a5998d14dd&dl=1' }
+    //       ]
+    //     }
+    //   }
+    // }
 ];
 class AppRoutingModule {
 }
@@ -376,6 +396,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js");
 /* harmony import */ var angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! angular-responsive-carousel */ "./node_modules/angular-responsive-carousel/__ivy_ngcc__/fesm2015/angular-responsive-carousel.js");
+/* harmony import */ var _layout_home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./layout/home/home.component */ "./src/app/layout/home/home.component.ts");
+/* harmony import */ var _layout_promo_video_promo_video_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./layout/promo-video/promo-video.component */ "./src/app/layout/promo-video/promo-video.component.ts");
+
+
 
 
 
@@ -392,7 +416,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"],
             angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_5__["IvyCarouselModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
+        _layout_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
+        _layout_promo_video_promo_video_component__WEBPACK_IMPORTED_MODULE_7__["PromoVideoComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"],
         angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_5__["IvyCarouselModule"]] }); })();
@@ -400,7 +426,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]
+                    _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
+                    _layout_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
+                    _layout_promo_video_promo_video_component__WEBPACK_IMPORTED_MODULE_7__["PromoVideoComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -412,6 +440,70 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                 bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
             }]
     }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/layout/home/home.component.ts":
+/*!***********************************************!*\
+  !*** ./src/app/layout/home/home.component.ts ***!
+  \***********************************************/
+/*! exports provided: HomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class HomeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 0, vars: 0, template: function HomeComponent_Template(rf, ctx) { }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xheW91dC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyJ9 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-home',
+                templateUrl: './home.component.html',
+                styleUrls: ['./home.component.css']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/layout/promo-video/promo-video.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/layout/promo-video/promo-video.component.ts ***!
+  \*************************************************************/
+/*! exports provided: PromoVideoComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PromoVideoComponent", function() { return PromoVideoComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class PromoVideoComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+PromoVideoComponent.ɵfac = function PromoVideoComponent_Factory(t) { return new (t || PromoVideoComponent)(); };
+PromoVideoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PromoVideoComponent, selectors: [["app-promo-video"]], decls: 0, vars: 0, template: function PromoVideoComponent_Template(rf, ctx) { }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xheW91dC9wcm9tby12aWRlby9wcm9tby12aWRlby5jb21wb25lbnQuY3NzIn0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PromoVideoComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-promo-video',
+                templateUrl: './promo-video.component.html',
+                styleUrls: ['./promo-video.component.css']
+            }]
+    }], function () { return []; }, null); })();
 
 
 /***/ }),
